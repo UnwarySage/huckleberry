@@ -7,6 +7,74 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
+.content {
+  min-height: 100%;
+}
+
+.max-width-wrapper {
+  max-width: 512px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+}
+
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  border-block-end-width: 8px;
+  border-block-end-style: solid;
+  border-block-end-color:  hsl(0deg, 0%, 40%);
+}
+
+body{
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+
+.intro-chunk h1 {
+  font-size: 2rem;
+  font-weight: 700;
+
+  padding-block-end: 32px;
+  padding-block-start: 32px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.lo-vertical-spacer {
+  margin-block-start: 64px;
+}
+
+.lo-horizontal-stretcher {
+  margin-inline-start: -32px;
+  margin-inline-end: -32px;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-block-end-width: 8px;
+  border-block-end-style: solid;
+  border-block-end-color:hsl(0deg, 0%, 40%)  ;
+  padding: 16px 32px 32px 32px;
+}
+
+.card .indented-heading {
+  background-color:hsl(45deg, 100%, 50%);
+  border-block-end-width: 8px;
+  border-block-end-style: solid;
+  border-block-end-color:  hsl(45deg, 100%, 40%);
+  width: fit-content; 
+  padding: 16px 16px 16px 64px;
+  margin-inline-start: -64px;
+  margin-block-start: -8px;
+}
 /* Add styles here! */
